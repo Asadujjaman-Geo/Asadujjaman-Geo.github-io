@@ -3,182 +3,111 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="The personal portfolio of Md. Asadujjaman Reon."
-    />
-    <meta name="theme-color" content="#101311" />
-    <title>Md. Asadujjaman Reon — Personal Portfolio</title>
+    <meta name="description" content="Md. Asadujjaman Reon — Remote Sensing and GIS student interested in geospatial approaches to environmental research." />
+    <meta name="theme-color" content="#f5f4ed" />
+    <title>Md. Asadujjaman Reon — Remote Sensing &amp; GIS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
-      <a class="wordmark" href="index.html" aria-label="Reon, home">
-        <span class="wordmark-mark">R.</span>
-        <span class="wordmark-name">REON</span>
-      </a>
-      <button
-        class="menu-toggle"
-        type="button"
-        aria-expanded="false"
-        aria-controls="primary-navigation"
-        aria-label="Open navigation"
-      >
-        <span></span>
-        <span></span>
-      </button>
-      <nav class="navigation" id="primary-navigation" aria-label="Main navigation">
-        <a href="index.html" aria-current="page">Home</a>
-        <a href="about.html">About</a>
-        <a href="research.html">Research</a>
-        <a class="nav-contact" href="contact.html">Contact <span aria-hidden="true">↗</span></a>
-      </nav>
+      <div class="header-inner">
+        <a class="wordmark" href="./" aria-label="Reon, home">
+          <span class="wordmark-mark">R</span>
+          <span class="wordmark-copy"><span class="wordmark-name">REON</span><span class="wordmark-field">REMOTE SENSING · GIS</span></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation"><span></span><span></span></button>
+        <nav class="navigation" id="primary-navigation" aria-label="Main navigation">
+          <a href="./" aria-current="page">Home</a>
+          <a href="about/">About</a>
+          <a href="research/">Research</a>
+          <a class="nav-contact" href="contact/">Get in touch <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
     </header>
 
     <main id="main">
-      <section class="hero section-wrap" id="home" aria-labelledby="hero-title">
-        <div class="hero-copy">
+      <section class="home-hero section-wrap" aria-labelledby="hero-title">
+        <div class="home-copy">
           <p class="eyebrow"><span class="status-dot"></span> REMOTE SENSING &amp; GIS STUDENT</p>
-          <h1 id="hero-title">Md. Asadujjaman <span>Reon</span></h1>
-          <p class="hero-intro">
-            Exploring how geospatial analysis can help us understand
-            environmental challenges and make better decisions.
+          <h1 id="hero-title">Reading the<br /><span>living landscape.</span></h1>
+          <p class="home-intro">
+            I’m Md. Asadujjaman Reon, a motivated student with an academic
+            foundation in Remote Sensing and GIS. I’m interested in using
+            geospatial methods to understand environmental change.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="research.html">
-              Research interests <span aria-hidden="true">↗</span>
-            </a>
-            <a class="text-link" href="about.html">About me <span aria-hidden="true">↗</span></a>
+            <a class="button button-primary" href="research/">Explore research <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="about/">A little about me <span aria-hidden="true">↗</span></a>
           </div>
-          <div class="hero-note">
-            <span class="note-line"></span>
-            <span>Curious by nature. Always becoming.</span>
-          </div>
+          <div class="availability-note"><span class="status-dot"></span> Seeking graduate research opportunities abroad</div>
         </div>
-        <div class="hero-art" aria-hidden="true">
-          <div class="art-orbit orbit-one"></div>
-          <div class="art-orbit orbit-two"></div>
-          <div class="art-orbit orbit-three"></div>
-          <div class="art-core"><span>R</span></div>
-          <span class="art-star star-one">✳</span>
-          <span class="art-star star-two">✳</span>
-          <span class="art-coordinate">REMOTE SENSING<br />GEOGRAPHIC INFORMATION SYSTEMS</span>
-          <span class="art-caption">SPATIAL THINKING<br />FOR A CHANGING WORLD</span>
-        </div>
-        <a class="scroll-cue" href="#profile">
-          <span class="scroll-cue-line"></span>
-          SCROLL TO EXPLORE
-        </a>
+        <figure class="geo-visual">
+          <img src="assets/topographic-field.svg" alt="Illustrated satellite-style map with topographic contours and a geospatial grid" />
+          <figcaption><span>EARTH OBSERVATION</span><span>FIELD NOTES · 01</span></figcaption>
+        </figure>
+        <div class="hero-foot"><span>GEOSPATIAL PERSPECTIVES</span><span>ENVIRONMENT · PLACE · CHANGE</span></div>
       </section>
 
-      <section class="about section-wrap section-border" id="profile" aria-labelledby="about-title">
-        <div class="section-label">
-          <span class="section-index">01</span>
-          <span>MY ACADEMIC DIRECTION</span>
-        </div>
-        <div class="about-content">
-          <h2 id="about-title">
-            Curious about<br />
-            <span>the bigger picture.</span>
-          </h2>
-          <div class="about-copy">
-            <p class="about-lead">
-              I’m a motivated, detail-oriented student with an academic
-              foundation in Remote Sensing and GIS.
-            </p>
+      <section class="intro-section section-wrap" aria-labelledby="intro-title">
+        <div class="section-label"><span class="section-index">01</span><span>MY RESEARCH DIRECTION</span></div>
+        <div class="intro-grid">
+          <h2 id="intro-title">Spatial insight for <span>environmental questions.</span></h2>
+          <div class="intro-copy">
             <p>
-              I’m seeking graduate research opportunities abroad where I can
-              contribute to environmental research and continue developing my
-              geospatial skills.
+              I aim to contribute to impactful geospatial and environmental
+              research while growing my skills in spatial analysis, project
+              execution, and interdisciplinary collaboration.
             </p>
-            <a class="text-link" href="about.html">More about my background <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="about/">Learn more about my background <span aria-hidden="true">↗</span></a>
           </div>
-        </div>
-        <div class="about-footnote">
-          <span class="footnote-mark">✳</span>
-          <span>Remote Sensing &amp; GIS</span>
-          <span class="footnote-divider"></span>
-          <span>Graduate research opportunities</span>
         </div>
       </section>
 
-      <section class="work section-wrap section-border" id="work" aria-labelledby="work-title">
-        <div class="section-label">
-          <span class="section-index">02</span>
-          <span>RESEARCH DIRECTION</span>
+      <section class="interest-section section-wrap" aria-labelledby="interests-title">
+        <div class="section-label"><span class="section-index">02</span><span>AREAS I’M EXPLORING</span></div>
+        <div class="interest-heading">
+          <h2 id="interests-title">From observation <span>to understanding.</span></h2>
+          <a class="text-link" href="research/">All research interests <span aria-hidden="true">↗</span></a>
         </div>
-        <div class="work-heading">
-          <div>
-            <h2 id="work-title">Questions worth <span>exploring.</span></h2>
-            <p class="section-description">
-              I’m interested in using advanced geospatial methods to better
-              understand real-world environmental challenges.
-            </p>
-          </div>
-          <a class="work-count research-link" href="research.html">
-            EXPLORE MY INTERESTS <span aria-hidden="true">↗</span>
+        <div class="interest-grid">
+          <a class="interest-card" href="research/#earth-observation">
+            <span class="interest-number">01</span><span class="interest-tag">EARTH OBSERVATION</span>
+            <h3>Seeing change from above</h3>
+            <p>Explore how remote sensing can reveal patterns in the environment.</p>
+            <span class="interest-arrow" aria-hidden="true">↗</span>
           </a>
-        </div>
-        <div class="focus-grid">
-          <a class="focus-card" href="research.html#environment">
-            <span class="focus-index">01 / APPLICATION</span>
-            <span class="focus-icon" aria-hidden="true">◎</span>
-            <h3>Environmental challenges</h3>
-            <p>Apply geospatial techniques to questions with real-world impact.</p>
-            <span class="focus-arrow" aria-hidden="true">↗</span>
+          <a class="interest-card" href="research/#spatial-analysis">
+            <span class="interest-number">02</span><span class="interest-tag">METHODS</span>
+            <h3>Asking spatial questions</h3>
+            <p>Build deeper skills in spatial analysis and geospatial research.</p>
+            <span class="interest-arrow" aria-hidden="true">↗</span>
           </a>
-          <a class="focus-card" href="research.html#spatial-analysis">
-            <span class="focus-index">02 / METHOD</span>
-            <span class="focus-icon" aria-hidden="true">⌖</span>
-            <h3>Spatial analysis</h3>
-            <p>Build deeper capability in spatial methods and project execution.</p>
-            <span class="focus-arrow" aria-hidden="true">↗</span>
-          </a>
-          <a class="focus-card" href="research.html#decision-support">
-            <span class="focus-index">03 / OUTCOME</span>
-            <span class="focus-icon" aria-hidden="true">↗</span>
-            <h3>Data-driven decisions</h3>
-            <p>Help translate spatial evidence into informed decisions.</p>
-            <span class="focus-arrow" aria-hidden="true">↗</span>
+          <a class="interest-card" href="research/#environment">
+            <span class="interest-number">03</span><span class="interest-tag">ENVIRONMENT</span>
+            <h3>Research with real-world relevance</h3>
+            <p>Connect geospatial evidence with environmental decision-making.</p>
+            <span class="interest-arrow" aria-hidden="true">↗</span>
           </a>
         </div>
       </section>
 
-      <section class="contact section-wrap" id="contact" aria-labelledby="contact-title">
-        <div class="section-label">
-          <span class="section-index">03</span>
-          <span>CONNECT</span>
+      <section class="opportunity-band">
+        <div class="opportunity-inner section-wrap">
+          <div><p class="eyebrow">NEXT CHAPTER</p><h2>Open to graduate research <span>opportunities.</span></h2></div>
+          <a class="button button-light" href="contact/">Let’s connect <span aria-hidden="true">↗</span></a>
         </div>
-        <div class="contact-content">
-          <p class="eyebrow"><span class="status-dot"></span> GRADUATE RESEARCH OPPORTUNITIES</p>
-          <h2 id="contact-title">Let’s make<br />an <span>impact.</span></h2>
-          <p class="contact-copy">
-            Interested in geospatial and environmental research. I welcome
-            conversations about graduate study and research collaboration.
-          </p>
-          <a class="button button-primary contact-button" href="contact.html">
-            Contact me <span aria-hidden="true">↗</span>
-          </a>
-        </div>
-        <div class="contact-decoration" aria-hidden="true">R.</div>
       </section>
     </main>
 
     <footer class="site-footer section-wrap">
-      <a class="wordmark footer-wordmark" href="index.html">
-        <span class="wordmark-mark">R.</span>
-        <span class="wordmark-name">REON</span>
-      </a>
-      <p>Designed with intention. <span>© <span id="current-year"></span> Reon</span></p>
-      <a class="back-to-top" href="#home">BACK TO TOP <span aria-hidden="true">↑</span></a>
+      <a class="wordmark footer-wordmark" href="./"><span class="wordmark-mark">R</span><span class="wordmark-name">REON</span></a>
+      <p>Remote Sensing · GIS <span>© <span id="current-year"></span> Md. Asadujjaman Reon</span></p>
+      <a class="back-to-top" href="#main">BACK TO TOP <span aria-hidden="true">↑</span></a>
     </footer>
   </body>
 </html>

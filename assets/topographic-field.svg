@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 620" fill="none">
+  <defs>
+    <linearGradient id="ground" x1="86" y1="66" x2="680" y2="574" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#234f45"/>
+      <stop offset=".48" stop-color="#376f5b"/>
+      <stop offset="1" stop-color="#173d39"/>
+    </linearGradient>
+    <linearGradient id="terrain" x1="186" y1="116" x2="556" y2="505" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b9c68a"/>
+      <stop offset=".5" stop-color="#8ba57a"/>
+      <stop offset="1" stop-color="#547d69"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#E5E7D7" stroke-opacity=".14"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect x="1" y="1" width="758" height="618" rx="8"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <path fill="url(#ground)" d="M0 0h760v620H0z"/>
+    <path fill="url(#grid)" d="M0 0h760v620H0z"/>
+    <path fill="#d2bd7a" fill-opacity=".72" d="M401 105c67 22 107 52 130 101 21 45 15 98 57 135 38 34 85 43 99 90 10 34-6 69-28 91-25 24-54 31-80 17-28-15-37-45-67-58-34-14-61 7-95-7-35-14-40-49-75-61-32-11-58 6-84-12-30-21-26-58-9-89 16-28 40-45 44-80 6-43-14-76 9-105 20-25 60-33 99-22Z"/>
+    <path fill="url(#terrain)" fill-opacity=".83" d="M134 240c38-42 71-32 106-77 30-39 49-82 97-91 45-9 72 22 111 15 34-6 54-41 89-37 34 4 54 37 53 73-1 35-20 62-6 99 13 34 47 50 51 84 4 39-30 65-32 101-3 40 31 73 18 105-13 34-57 46-91 32-33-14-43-47-77-51-40-5-69 36-111 30-40-6-51-46-88-54-38-9-76 16-108-4-31-19-24-58-49-79-27-23-73-14-87-47-14-31 8-69 34-99Z"/>
+    <g stroke="#edf0dc" stroke-opacity=".6" stroke-width="1.5">
+      <path d="M103 173c35-25 73-24 110-53 40-32 58-70 113-78 54-9 84 25 133 20 48-5 75-42 118-24 34 14 48 51 41 86-8 39-38 62-29 107 8 38 43 61 39 97-4 38-42 54-45 90-4 39 30 78 8 108-21 29-68 29-99 11"/>
+      <path d="M122 198c30-21 66-22 98-49 37-31 56-66 105-72 47-6 78 24 122 18 43-6 71-37 107-20 30 14 41 47 32 77-11 34-36 56-27 95 8 35 40 57 35 89-6 32-40 46-43 78-3 36 27 68 6 94-18 22-56 22-84 10"/>
+      <path d="M145 226c25-18 58-20 86-45 33-29 52-59 95-63 42-4 72 22 110 16 39-6 66-31 96-16 24 12 32 41 22 66-12 30-34 51-25 84 8 30 35 49 29 77-6 26-35 39-38 66-3 29 23 56 5 77-16 18-45 16-69 8"/>
+      <path d="M173 253c23-17 47-18 71-39 29-25 45-50 83-53 35-3 63 18 95 12 33-6 56-25 79-13 19 10 24 34 15 55-12 26-29 44-21 70 8 25 30 41 24 63-6 21-30 32-32 54-3 25 19 44 3 62-13 14-36 12-55 5"/>
+      <path d="M205 280c18-14 40-15 60-33 23-21 37-41 67-43 27-2 51 14 77 9 26-5 45-19 62-10 14 8 16 26 7 44-10 19-24 34-16 54 7 19 23 32 17 49-5 16-23 23-25 41-2 19 14 34 1 46-10 10-28 8-42 3"/>
+    </g>
+    <g stroke="#f0e5bc" stroke-opacity=".8">
+      <path d="M60 431c99-50 173-31 257-78s127-93 214-80c57 8 99 43 170 27"/>
+      <path d="M51 451c104-51 181-30 269-79s130-91 211-79c63 9 103 43 177 26"/>
+      <path d="M46 473c109-53 189-31 280-80s134-91 211-77c67 11 109 45 181 27"/>
+    </g>
+    <circle cx="478" cy="298" r="13" fill="#f3f0d7"/>
+    <circle cx="478" cy="298" r="6" fill="#234f45"/>
+    <circle cx="478" cy="298" r="23" stroke="#f3f0d7" stroke-opacity=".7"/>
+    <path d="M478 262v-21m0 114v-21m36-36h21m-114 0h21" stroke="#f3f0d7" stroke-opacity=".75"/>
+    <g font-family="monospace" font-size="12" letter-spacing="2">
+      <text x="34" y="42" fill="#f3f0d7">REMOTE SENSING / GIS</text>
+      <text x="34" y="585" fill="#f3f0d7" fill-opacity=".78">CONTOUR STUDY</text>
+      <text x="600" y="585" fill="#f3f0d7" fill-opacity=".78">LAYER 01</text>
+    </g>
+    <path d="M710 64v28m-8-8 8-20 8 20h-16Z" stroke="#f3f0d7" stroke-width="1.5"/>
+    <text x="705" y="109" fill="#f3f0d7" font-family="monospace" font-size="10" letter-spacing="1">N</text>
+  </g>
+</svg>
